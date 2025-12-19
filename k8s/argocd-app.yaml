@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://gitlab.example.com/devops/simple-ci-pipeline.git
+    repoURL: https://github.com/yashsrivastava1408/simple-ci-cd.git
     targetRevision: main
     path: k8s
   destination:

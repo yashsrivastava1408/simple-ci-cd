@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: simple-app
-        image: python:3.10-slim
+        image: simple-app:test
+        imagePullPolicy: IfNotPresent
         command: ["python", "app.py"]
         ports:
         - containerPort: 8080
